@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2? family = Fraunces: ital, wght @ 1.500 & display = swap "rel =" stylesheet ");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,700;1,700&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2? family = Yusei + Magic & display = swap" rel = "folha de estilo");
+
+html,body{background-color: white;}
+
+#fundo{background-image: url(fundo.png);background-size: cover; background-position: center; width: 98%; height: 100%;margin-top: 40px; }
+#titulo1 {color: #ffffff;text-align: center;float: center;}
+
+#menu ul {margin: 0%; background-color: #59ba47; list-style: none;position: fixed;left: 0%; top: 0%;width: 100%;}
+#menu ul li {display: inline;}
+#menu ul li a {padding: 10px 20px;display: inline block;color: #ffffff;text-decoration: none;font-family: 'Noto Serif';float: right;margin-right: 30px;}
+#menu ul li a:hover {color: #2C6E49; border:3px #ffffff solid; font-family: 'Yusei Magic', sans-serif;}
+
+/*
+       #coluna1 {border-style: solid; margin-left: 0mm; float: left; width: 100px;height: 1500;color: #ffffff;}
+       #coluna2 {border-style: solid; margin-right: 0mm; float: right;width: 100px; height: 1500px;color: #ffffff;}
+       #coluna3 {border-style: solid; margin-right: 0mm; float: right;width: 340px; height: 1500px;}
+*/
+
+.borda1 { width: 45%; float: left; position: relative;color: #ffffff; padding:15px;}
+    
+#subtitulo {font-size:  28px; text-align:center;color: #59ba47;float: left;margin: 30px;font-family: 'Noto Serif', serif; }
+  
+     .paragrafo {font-size: 20px; text-align: justify;color: #D68C45;float: center;text-indent: 30px;font-family:'fraunces', sans-serif;}
+     .paragrafo2 {font-size: 20px; text-align: justify;color: #D68C45;float: center;text-indent: 30px;font-family:'fraunces', sans-serif;}
+
+#video {width: 45%; float:left;padding: 15px; position:relative; margin: 10px;}
+
+.caixatexto {clear:both;float: center; position: relative; color:#59ba47; border: #ffffff 5px dotted; width:900px;padding-left: 15%;}
+.comoajudar {float: center;color: #59ba47;font-size: 20px;text-align: center; position: relative; font-family:'fraunces', sans-serif;padding-left:25%;}    
+
+.problemas1 {font-family:'fraunces', sans-serif;position: relative;color: #59ba47;text-align: center;font-size: 30px;display: block;}
+.problemas {font-family:'fraunces', sans-serif;position: relative;color: #59ba47;text-align: center;font-size: 30px;}
+.colunas {float: left;margin-left: 50px;position: relative; }
+#miniimagens {background-color: #2C6E49;}
+
+#hover:hover {width: 250px;font-family: 'Noto Serif', serif;}
+
+    #mapas {float: center; text-align: center;margin-top: 20px;}
+    #titulos {color: #59ba47;font-size: 30px;font-family:'fraunces', sans-serif; padding-top: 5%;}
+    #mapa1 {width: 50%;}  #mapa2 {width: 70%;} #mapa3 {width: 70%;} #mapa4 {width: 50%;} #mapa5 {width: 70%;}
+
+               #colunadeitada1 {color: #2C6E49;width: 500px;}
+               #colunadeitada {color: #ffffff;width: 500px;}
+
+.borda2 {padding: 20px;float: none;}
+#sos {text-align: center;font-size: 35px;display: block;font-family: 'Noto Serif', serif; color: #59ba47;}
+#iniciativas {
+       width: 40%;
+       height: 30%;
+       object-fit: cover;
+       padding: 0%;
+       margin: 1%;
+       float: left;
+   }
+
+.fundoverde {
+       background-color: #2C6E49;
+       padding: 2%;
+       margin: 0.5%;
+       display: block;}
+           
+                         .nomesdosprojetos {
+                                text-align: center;
+                                color: #ffffff;
+                                font-family: 'Noto Serif', serif;
+                                margin-right: 5%;
+                         }
+
+                   .maisobre {
+                          color: #ffffff;
+                          text-align: justify;
+                          font-size: 14.7px;
+                          display: block;
+                         margin-block-start: 1em;
+                        margin-block-end: 1em;
+                        margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                        font-family:'fraunces', sans-serif;
+                        margin-right: 5%;
+
+                  }
+
+              #sabermais {
+                     text-decoration: none;
+                     position: relative;
+                    background-color: #ffffff;
+                     color: #D68C45;
+                      font-weight: bold;
+                     
+                    
+                     padding: 4px 30px 4px 30px;
+                       border-radius: 20px;
+                      font-size: 20px;
+                      transition: 0.3s;
+              }
+              
+              
+
+
+
+          #sobre {padding-top: 3%;background-color: #f9f9f9;width: 100%;height: 100%;}
+          .eu {width: 20%; text-align: center;}
+          #titulo5 {font-family:'fraunces', sans-serif; color: #2C6E49;font-size: 20px;}
+          #sobremi {margin: 0%;}
+          .textin {text-align: justify; font-family: 'Noto Serif', serif;color: #D68C45; font-size: 20px;float: center;margin-left: 20%;margin-right: 20%;margin-top: 0%;}
+
+
+
+#linktopo {text-decoration: none; padding: 15px;bottom: 10px;right: 10px;position: fixed;color: #ffffff;background-color: #2C6E49;}
+#linktopo:hover {cursor: pointer;}
+  footer {
+         background-color: #59ba47;
+         padding-left: 5em;
+         padding-bottom: 40px;
+         border-bottom: 5px solid #2C6E49;
+         height: 100%;;
+  }              
+
+  footer h2, h3, a {
+         color: #ffffff;
+
+  }
+
+  footer h2{
+         font-weight: 400;
+         font-family: 'Noto Serif', serif;
+  }
+
+  #referencias {
+       font-family: 'Noto Serif', serif;
+       margin-top: 20px;
+       font-size: 25px;
+  }
+
+  footer a {
+         text-decoration: none;
+  }
+
+  footer ul {
+         padding: 0%;
+  }
+
+  footer li {
+         list-style: none;
+  }
+
+  .footer-box {
+         width: 31%;
+         padding: 1%;
+         float: left;
+  }
+
+.imagemgirl {
+clear: both;
+content: "";
+display: block;
+}
+
+#girl {
+       width: 80%;
+}
+
+#projeto {
+
+       font-family: 'Noto Serif', serif;
+       margin-top: 20px;
+       font-size: 25px;
+}
+ 
+.footer-list li {
+       margin-bottom: 15px;
+}
+
+
+
+
+.fooster-list li:after {
+       clear: both;
+       content: "";
+       display: block;
+}
+
+.icone {
+       width: 10%;
+       margin: 5%;
+
+}
+
+
+
+#links {
+       font-size: 25px;
+       font-family:'fraunces', sans-serif;
+       transition: .5s;
+}
+
+#links:hover {color: #2C6E49;}
+
+#meuemail {
+       color: #ffffff;
+       background-color: #2C6E49;
+       text-align: center;
+       
+}
+
+@media all and (max-width:768px) {
+ #menu {visibility: hidden;}
+
+ #fundo {width: 318px;height: 179px;padding-top: 0%;}
+
+ #subtitulo { width: 180%;margin-left: 0%;text-align: center;}
+       .caixatexto{float: left;}
+
+       .paragrafo {text-align: justify;width: 188%;padding-left: 0%;padding-right: 0%;font-size: 20px;}
+       .paragrafo2 {padding-left: 0%;text-align: justify; display: block; width: 250px; float: none;margin-bottom: 0%;text-indent: 0%;}
+
+ #video {width: 98%;padding-left: 0%;}
+       
+ #miniimagens {background-color: #ffffff;}
+
+         .textin {font-size: 15px;}
+
+#mapa1 {width: 100%;} #mapa2 {width: 100%;} #mapa3 {width: 100%;} #mapa4 {width: 100%;} #mapa5 {width: 100%;}
+
+#colunadeitada1 {color: #ffffff;}
+
+.problemas {display: block;}
+
+
+ .problemas1 {visibility: hidden;}
+
+.footer-box {float: center; padding-top: 15px;max-width: 868;margin-right: 15px;width: 75%;}
+#links {font-size: 10px;}
+#projeto {font-size: 10px;}
+.icone {font-size: 20px;}
+#referencias {font-size: 10px;}
+#h3 {font-family: 'Noto Serif', serif;font-size: 10px;}
+
+#linktopo {margin-right: 650px;position: fixed;}
+
+#iniciativas {
+       float: none;
+       width: 100%;
+       padding-top: 3%;
+       padding-bottom: 0%;
+       background-color: #2C6E49;
+       color: #2C6E49;
+       
+}
+                .nomesdosprojetos { visibility: hidden;}
+
+}
+
+
+
+
+.borda2 {
+       padding-top: 0%;
+}
+
+#sos {
+       padding-bottom: 0%;
+}
